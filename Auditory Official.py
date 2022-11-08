@@ -176,7 +176,7 @@ break_2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/Documents/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2, 1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -197,7 +197,7 @@ break_2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/Documents/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2, 1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -218,7 +218,7 @@ break_2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/Documents/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2, 1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -229,7 +229,7 @@ auditory_attentionClock = core.Clock()
 att_50 = sound.Sound('500', secs=0.25, stereo=True, hamming=True,
     name='att_50')
 att_50.setVolume(0.1)
-static = sound.Sound('C:/Users/Documents/tv-static-02.wav', secs=0.25, stereo=True, hamming=True,
+static = sound.Sound('tv-static-02.wav', secs=0.25, stereo=True, hamming=True,
     name='static')
 static.setVolume(0.08)
 response_att = keyboard.Keyboard()
@@ -239,7 +239,7 @@ break_2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/Documents/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2, 1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,

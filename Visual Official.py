@@ -188,7 +188,7 @@ break2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/WALLACE LAB/Pictures/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2,1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -219,7 +219,7 @@ break2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/WALLACE LAB/Pictures/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2,1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -250,7 +250,7 @@ break2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/WALLACE LAB/Pictures/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2,1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -281,7 +281,7 @@ break2Clock = core.Clock()
 white_cross = visual.ImageStim(
     win=win,
     name='white_cross', 
-    image='C:/Users/WALLACE LAB/Pictures/Fixation.png', mask=None, anchor='center',
+    image='Fixation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(2,1),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,

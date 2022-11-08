@@ -102,7 +102,7 @@ visual__repetitionClock = core.Clock()
 visual_reps = visual.ImageStim(
     win=win,
     name='visual_reps', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/circle_repetition.png', mask=None, anchor='center',
+    image='C:/Users/Documents/circle_repetition.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -110,7 +110,7 @@ visual_reps = visual.ImageStim(
 blank_circle = visual.ImageStim(
     win=win,
     name='blank_circle', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/no_circle.png', mask=None, anchor='center',
+    image='C:/Users/Documents/no_circle.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -118,7 +118,7 @@ blank_circle = visual.ImageStim(
 visual_rep_2 = visual.ImageStim(
     win=win,
     name='visual_rep_2', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/circle_repetition.png', mask=None, anchor='center',
+    image='C:/Documents/circle_repetition.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -129,7 +129,7 @@ break_2Clock = core.Clock()
 blank_space = visual.ImageStim(
     win=win,
     name='blank_space', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/no_circle.png', mask=None, anchor='center',
+    image='C:/Users/Documents/no_circle.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -148,7 +148,7 @@ visual_alternation_1 = visual.ImageStim(
 image = visual.ImageStim(
     win=win,
     name='image', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/no_circle.png', mask=None, anchor='center',
+    image='C:/Users/Documents/no_circle.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -156,7 +156,7 @@ image = visual.ImageStim(
 image_2 = visual.ImageStim(
     win=win,
     name='image_2', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/circle_alternation.png', mask=None, anchor='center',
+    image='C:/Users/Documents/circle_alternation.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -167,7 +167,7 @@ break_2Clock = core.Clock()
 blank_space = visual.ImageStim(
     win=win,
     name='blank_space', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/no_circle.png', mask=None, anchor='center',
+    image='C:/Users/Documents/no_circle.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -186,7 +186,7 @@ visual_attention_1 = visual.ImageStim(
 image_3 = visual.ImageStim(
     win=win,
     name='image_3', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/no_circle.png', mask=None, anchor='center',
+    image='C:/Users/Documents/no_circle.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -194,7 +194,7 @@ image_3 = visual.ImageStim(
 image_4 = visual.ImageStim(
     win=win,
     name='image_4', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/circle_attention.png', mask=None, anchor='center',
+    image='C:/Users/Documents/circle_attention.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,
@@ -205,7 +205,7 @@ break_2Clock = core.Clock()
 blank_space = visual.ImageStim(
     win=win,
     name='blank_space', 
-    image='C:/Users/WALLACE LAB/Documents/PsychoPy/Repetition & Novelty Detection/no_circle.png', mask=None, anchor='center',
+    image='C:/Users/Documents/no_circle.png', mask=None, anchor='center',
     ori=0.0, pos=(0, 0), size=(1, 0.8),
     color=[1,1,1], colorSpace='rgb', opacity=None,
     flipHoriz=False, flipVert=False,

@@ -143,8 +143,7 @@ grace_period = visual.TextStim(win=win, name='grace_period',
 
 # Initialize components for Routine "test_trial"
 test_trialClock = core.Clock()
-test1 = sound.Sound('500', secs=0.25, stereo=True, hamming=True,
-    name='test1')
+test1 = sound.AudioClip.load('ba.wav')
 test1.setVolume(0.1)
 test2 = sound.Sound('1000', secs=0.25, stereo=True, hamming=True,
     name='test2')
@@ -184,10 +183,10 @@ white_cross = visual.ImageStim(
 
 # Initialize components for Routine "auditory_repetition"
 auditory_repetitionClock = core.Clock()
-rep_50 = sound.Sound('500', secs=0.250, stereo=True, hamming=True,
+rep_50 = sound.Sound('ba.wav', secs=0.25, stereo=True, hamming=True,
     name='rep_50')
 rep_50.setVolume(0.1)
-rep_50_2 = sound.Sound('500', secs=0.25, stereo=True, hamming=True,
+rep_50_2 = sound.Sound('ba.wav', secs=0.25, stereo=True, hamming=True,
     name='rep_50_2')
 rep_50_2.setVolume(0.1)
 response_rep = keyboard.Keyboard()
@@ -205,10 +204,9 @@ white_cross = visual.ImageStim(
 
 # Initialize components for Routine "auditory_alternation"
 auditory_alternationClock = core.Clock()
-alt_50 = sound.Sound('500', secs=0.250, stereo=True, hamming=True,
-    name='alt_50')
+alt_50 = sound.Sound('ba.wav', secs=0.25, stereo=True, hamming=True)
 alt_50.setVolume(0.1)
-alt_1000 = sound.Sound('1000', secs=.25, stereo=True, hamming=True,
+alt_1000 = sound.Sound('ga.wav', secs=0.25, stereo=True, hamming=True,
     name='alt_1000')
 alt_1000.setVolume(0.05)
 response_alt = keyboard.Keyboard()
@@ -226,8 +224,7 @@ white_cross = visual.ImageStim(
 
 # Initialize components for Routine "auditory_attention"
 auditory_attentionClock = core.Clock()
-att_50 = sound.Sound('500', secs=0.25, stereo=True, hamming=True,
-    name='att_50')
+att_50 = sound.Sound('ba.wav', secs=0.25, stereo=True, hamming=True)
 att_50.setVolume(0.1)
 static = sound.Sound('tv-static-02.wav', secs=0.25, stereo=True, hamming=True,
     name='static')
@@ -967,9 +964,9 @@ def aud_rep():
     continueRoutine = True
     routineTimer.add(2.000000)
     # update component parameters for each repeat
-    rep_50.setSound('500', secs=0.250, hamming=True)
+    rep_50.setSound('ba.wav', secs=0.25, stereo=True, hamming=True)
     rep_50.setVolume(0.1, log=False)
-    rep_50_2.setSound('500', secs=0.25, hamming=True)
+    rep_50_2.setSound('ba.wav', secs=0.25, stereo=True, hamming=True)
     rep_50_2.setVolume(0.1, log=False)
     response_rep.keys = []
     response_rep.rt = []
@@ -1171,9 +1168,9 @@ def aud_alt():
     continueRoutine = True
     routineTimer.add(2.000000)
     # update component parameters for each repeat
-    alt_50.setSound('500', secs=0.250, hamming=True)
+    alt_50.setSound('ba.wav', secs=0.25, stereo=True, hamming=True)
     alt_50.setVolume(0.1, log=False)
-    alt_1000.setSound('1000', secs=.25, hamming=True)
+    alt_1000.setSound('ga.wav', secs=0.25, stereo=True, hamming=True)
     alt_1000.setVolume(0.05, log=False)
     response_alt.keys = []
     response_alt.rt = []
@@ -1373,9 +1370,9 @@ def aud_att():
     continueRoutine = True
     routineTimer.add(2.000000)
     # update component parameters for each repeat
-    att_50.setSound('500', secs=0.25, hamming=True)
+    att_50.setSound('ba.wav', secs=0.25, stereo=True, hamming=True)
     att_50.setVolume(0.1, log=False)
-    static.setSound('C:/Users/Documents/tv-static-02.wav', secs=0.25, hamming=True)
+    static.setSound('tv-static-02.wav', secs=0.25, hamming=True)
     static.setVolume(0.08, log=False)
     response_att.keys = []
     response_att.rt = []
